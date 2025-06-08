@@ -22,7 +22,7 @@ const LoveMessage = () => {
           <div className="space-y-6 text-lg md:text-xl leading-relaxed text-muted-foreground">
             <p>
               Meu amor cada momento com você é como um sonho lindo do qual eu não quero acordar,
-              você encheu minha vida de cores e risadas de novo. você ne enche de felicidade.
+              você encheu minha vida de cores e risadas de novo. você me enche de felicidade.
             </p>
             
             <p>
@@ -47,9 +47,9 @@ const LoveMessage = () => {
             <p>
               Eu tenho tanta coisa pra te falar, mas palavras não são suficientes. Mas quero te dedicar um dos poemas mais lindos que já ouvi.<br />
               (escute a primeira musica)<br/>
-              Soneto da fidelidade<br/><br/>De tudo, ao meu amor serei atento<br/>Antes, e contal zelo, e sempre e tanto<br/>Que mesmo em face do maior encanto<br/>
+              Soneto da fidelidade<br/><br/>De tudo, ao meu amor serei atento<br/>Antes, e com tal zelo, e sempre e tanto<br/>Que mesmo em face do maior encanto<br/>
               Dele se encante mais meu pensamento.<br/><br/>
-              Quero vivê-lo em cada vão momento<br/>E em sou louver hei de espalhar meu canto<br/>E rir meu riso e derramar meu pranto<br/>
+              Quero vivê-lo em cada vão momento<br/>E em sou louvor hei de espalhar meu canto<br/>E rir meu riso e derramar meu pranto<br/>
               Ao seu pesar ou seu contentamento.<br/><br/> E assim, quando mais tarde me procure<br/>Quem sabe a morte, angústia de quem vive<br/>Quem sabe a solidão, fim de quem ama<br/><br/>
               Eu possa me dizer do amor (que tive):<br/>Que não seja imortal, posto que é chama<br/>Mas que seja infinito enquanto dure.
             </p>
