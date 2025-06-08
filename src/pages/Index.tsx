@@ -25,8 +25,8 @@ const Index = () => {
             <div className="relative inline-block">
               <div className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden shadow-2xl border-8 border-white/50 backdrop-blur-sm">
                 <img
-                  src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop"
-                  alt="Our beautiful couple photo"
+                  src="/photos/nos.jpeg"
+                  alt="Fotinha nossa juntos"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -39,30 +39,24 @@ const Index = () => {
           {/* Title and subtitle */}
           <div className="space-y-6 mb-12">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-fade-in">
-              Our Love Story
+              Para o amor da minha vida
             </h1>
             <div className="flex items-center justify-center space-x-3 mb-4">
               <Sparkles className="w-6 h-6 text-pink-500" />
               <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-                A digital love letter just for you
+                Um lembrete digital do quanto eu te amo 
               </p>
               <Sparkles className="w-6 h-6 text-pink-500" />
             </div>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Welcome to our special place, where every pixel holds a memory, every second counts, 
-              and every melody speaks of our love. This is my gift to you, my darling.
+              Bem vinda ao nosso lugar especial, onde cada pixel guarda uma lembrança, cada segundo ao
+              seu lado conta e cada melodia fala do nosso amor. Que esse presentinho guarde um cadinho
+              da nossa história. Este é meu presente para você meu benzinho.
             </p>
           </div>
 
-          {/* Scroll indicator */}
-          <div className="animate-bounce">
-            <div className="w-6 h-10 border-2 border-pink-400 rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-pink-400 rounded-full mt-2 animate-pulse"></div>
-            </div>
-          </div>
         </div>
       </section>
-
       {/* Time Counter Section */}
       <TimeCounter />
 
@@ -79,10 +73,9 @@ const Index = () => {
       <footer className="py-12 px-6 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-center">
         <div className="max-w-2xl mx-auto">
           <Heart className="w-12 h-12 mx-auto mb-4 fill-current" />
-          <p className="text-lg mb-2">Made with endless love</p>
-          <p className="text-pink-100">For the most amazing person in my world ✨</p>
+          <p className="text-lg mb-2">Feito por mim com muito amor</p>
+          <p className="text-pink-100">Para a pessoa mais incrível do meu mundo ✨</p>
           <div className="mt-6 text-sm text-pink-100">
-            <p>&copy; 2024 Our Love Story • Forever and Always</p>
           </div>
         </div>
       </footer>

@@ -1,6 +1,4 @@
-
 import React, { useState, useEffect } from 'react';
-import { Heart } from 'lucide-react';
 
 const TimeCounter = () => {
   const [timeSpent, setTimeSpent] = useState({
@@ -10,8 +8,8 @@ const TimeCounter = () => {
     seconds: 0
   });
 
-  // Set your relationship start date here
-  const relationshipStart = new Date('2023-01-01'); // Change this to your actual start date
+  // Data de início do relacionamento
+  const relationshipStart = new Date('2025-03-16');
 
   useEffect(() => {
     const updateCounter = () => {
@@ -35,12 +33,19 @@ const TimeCounter = () => {
   return (
     <section className="py-16 px-6 bg-gradient-to-br from-pink-50 to-purple-50">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="flex justify-center mb-6">
-          <Heart className="w-12 h-12 text-pink-500 fill-current animate-pulse" />
+        {/* GIF no lugar do coração */}
+        <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
+          <img
+            src="/music/abraco.gif"
+            alt="Abraço fofo"
+            className="w-full h-full object-cover"
+          />
         </div>
+
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-foreground">
-          Time We've Spent Together
+          Somos felizes juntos a
         </h2>
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
           {[
             { label: 'Days', value: timeSpent.days },
@@ -61,8 +66,9 @@ const TimeCounter = () => {
             </div>
           ))}
         </div>
+
         <p className="text-lg text-muted-foreground">
-          Every second with you feels like a beautiful eternity ✨
+          Cada segundo ao seu lado faz a eternidade parecer tão pouca ✨
         </p>
       </div>
     </section>

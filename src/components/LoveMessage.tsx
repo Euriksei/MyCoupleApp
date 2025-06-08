@@ -15,30 +15,48 @@ const LoveMessage = () => {
         </div>
         
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-foreground">
-          A Message From My Heart
+          Uma mensagem do meu coração
         </h2>
         
         <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl max-w-3xl mx-auto">
           <div className="space-y-6 text-lg md:text-xl leading-relaxed text-muted-foreground">
             <p>
-              My dearest love, every moment with you feels like a beautiful dream that I never want to wake up from. 
-              You've filled my life with colors I never knew existed and melodies that make my heart dance.
+              Meu amor cada momento com você é como um sonho lindo do qual eu não quero acordar,
+              você encheu minha vida de cores e risadas de novo. você ne enche de felicidade.
             </p>
             
             <p>
-              From our first laugh together to every adventure we've shared, you've been my constant source of joy, 
-              my safe harbor in storms, and my greatest inspiration. You make the ordinary extraordinary just by being you.
+              Desde a nossa primeira risada juntos você tem sido minha fonte constante de alegria e,
+              inspiração, estar com você torna o comum extraordinário simplesmente por estar com você.
+            </p>
+
+            <p>
+              Talvez ficar comigo não seja tão fácil, e eu sinto muito por não ter tanto tempo, por sempre
+              estar cansado, as vezes por ser reclamão... Mas saiba que tudo que eu faço é pensando em você,
+              e se eu pudesse eu largava tudinho para ser só nós dois, mas meu amor a coisa mais corajosa que
+              eu posso fazer por você é aguentar até o final disso tudo, para podermos construir nosso futuro
+              juntinhos.
             </p>
             
             <p>
-              This little app is a small token of my endless love for you. Every photo here tells our story, 
-              every second counted is a second I'm grateful to have you in my life, and every song reminds me 
-              of the beautiful symphony we create together.
+              Este pequeno aplicativo é uma pequena lembrança do meu amor infinito por você. Cada foto aqui
+              conta a nossa história (ainda teremos muito mais rsrs), cada segundo contado é um segundo pelo qual sou grato por ter você na 
+              minha vida, e cada música me lembra da linda sinfonia que criamos juntos.
+            </p>
+
+            <p>
+              Eu tenho tanta coisa pra te falar, mas palavras não são suficientes. Mas quero te dedicar um dos poemas mais lindos que já ouvi.<br />
+              (escute a primeira musica)<br/>
+              Soneto da fidelidade<br/><br/>De tudo, ao meu amor serei atento<br/>Antes, e contal zelo, e sempre e tanto<br/>Que mesmo em face do maior encanto<br/>
+              Dele se encante mais meu pensamento.<br/><br/>
+              Quero vivê-lo em cada vão momento<br/>E em sou louver hei de espalhar meu canto<br/>E rir meu riso e derramar meu pranto<br/>
+              Ao seu pesar ou seu contentamento.<br/><br/> E assim, quando mais tarde me procure<br/>Quem sabe a morte, angústia de quem vive<br/>Quem sabe a solidão, fim de quem ama<br/><br/>
+              Eu possa me dizer do amor (que tive):<br/>Que não seja imortal, posto que é chama<br/>Mas que seja infinito enquanto dure.
             </p>
             
             <div className="flex justify-center mt-8">
               <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-8 py-3 rounded-full font-semibold text-lg">
-                I Love You Forever ❤️
+                Eu te amo pra sempre❤️
               </div>
             </div>
           </div>
@@ -46,9 +64,8 @@ const LoveMessage = () => {
         
         <div className="mt-8 text-muted-foreground">
           <p className="italic">
-            "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine."
+            "Que não seja imortal, posto que é chama, Mas que seja infinito enquanto dure (nosso amor)."
           </p>
-          <p className="text-sm mt-2">- Maya Angelou</p>
         </div>
       </div>
     </section>
